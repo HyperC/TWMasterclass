@@ -11,7 +11,6 @@
 		E976C3FF18351535004E1AA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E976C3F618351535004E1AA5 /* main.m */; };
 		E976C40018351535004E1AA5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E976C3F918351535004E1AA5 /* Images.xcassets */; };
 		E976C40118351535004E1AA5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E976C3FB18351535004E1AA5 /* InfoPlist.strings */; };
-		E976C40218351535004E1AA5 /* TWMasterclass-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E976C3FD18351535004E1AA5 /* TWMasterclass-Info.plist */; };
 		E976C40518351750004E1AA5 /* TWMHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E976C40418351750004E1AA5 /* TWMHomeViewController.m */; };
 		E976C40818351778004E1AA5 /* TWMHomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = E976C40718351778004E1AA5 /* TWMHomeView.m */; };
 		E976C40A183517AA004E1AA5 /* TWMHomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E976C409183517AA004E1AA5 /* TWMHomeView.xib */; };
@@ -263,7 +262,6 @@
 				E976C40A183517AA004E1AA5 /* TWMHomeView.xib in Resources */,
 				E976C40018351535004E1AA5 /* Images.xcassets in Resources */,
 				E976C40118351535004E1AA5 /* InfoPlist.strings in Resources */,
-				E976C40218351535004E1AA5 /* TWMasterclass-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
