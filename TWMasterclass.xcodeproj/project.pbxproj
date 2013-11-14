@@ -13,6 +13,9 @@
 		E976C40018351535004E1AA5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E976C3F918351535004E1AA5 /* Images.xcassets */; };
 		E976C40118351535004E1AA5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E976C3FB18351535004E1AA5 /* InfoPlist.strings */; };
 		E976C40218351535004E1AA5 /* TWMasterclass-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E976C3FD18351535004E1AA5 /* TWMasterclass-Info.plist */; };
+		E976C40518351750004E1AA5 /* TWMHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E976C40418351750004E1AA5 /* TWMHomeViewController.m */; };
+		E976C40818351778004E1AA5 /* TWMHomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = E976C40718351778004E1AA5 /* TWMHomeView.m */; };
+		E976C40A183517AA004E1AA5 /* TWMHomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E976C409183517AA004E1AA5 /* TWMHomeView.xib */; };
 		E9FE4C83183509A800B395A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9FE4C82183509A800B395A9 /* Foundation.framework */; };
 		E9FE4C85183509A800B395A9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9FE4C84183509A800B395A9 /* CoreGraphics.framework */; };
 		E9FE4C87183509A800B395A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9FE4C86183509A800B395A9 /* UIKit.framework */; };
@@ -41,6 +44,11 @@
 		E976C3F918351535004E1AA5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E976C3FC18351535004E1AA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E976C3FD18351535004E1AA5 /* TWMasterclass-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TWMasterclass-Info.plist"; sourceTree = "<group>"; };
+		E976C40318351750004E1AA5 /* TWMHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWMHomeViewController.h; sourceTree = "<group>"; };
+		E976C40418351750004E1AA5 /* TWMHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWMHomeViewController.m; sourceTree = "<group>"; };
+		E976C40618351778004E1AA5 /* TWMHomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWMHomeView.h; sourceTree = "<group>"; };
+		E976C40718351778004E1AA5 /* TWMHomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWMHomeView.m; sourceTree = "<group>"; };
+		E976C409183517AA004E1AA5 /* TWMHomeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TWMHomeView.xib; sourceTree = "<group>"; };
 		E9FE4C7F183509A800B395A9 /* TWMasterclass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TWMasterclass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9FE4C82183509A800B395A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E9FE4C84183509A800B395A9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -96,6 +104,8 @@
 		E976C3F318351535004E1AA5 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				E976C40318351750004E1AA5 /* TWMHomeViewController.h */,
+				E976C40418351750004E1AA5 /* TWMHomeViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -103,6 +113,9 @@
 		E976C3F418351535004E1AA5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				E976C40618351778004E1AA5 /* TWMHomeView.h */,
+				E976C40718351778004E1AA5 /* TWMHomeView.m */,
+				E976C409183517AA004E1AA5 /* TWMHomeView.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -253,6 +266,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E976C40A183517AA004E1AA5 /* TWMHomeView.xib in Resources */,
 				E976C40018351535004E1AA5 /* Images.xcassets in Resources */,
 				E976C40118351535004E1AA5 /* InfoPlist.strings in Resources */,
 				E976C40218351535004E1AA5 /* TWMasterclass-Info.plist in Resources */,
@@ -306,6 +320,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E976C40818351778004E1AA5 /* TWMHomeView.m in Sources */,
+				E976C40518351750004E1AA5 /* TWMHomeViewController.m in Sources */,
 				E976C3FF18351535004E1AA5 /* main.m in Sources */,
 				E976C3FE18351535004E1AA5 /* TWMAppDelegate.m in Sources */,
 			);

@@ -7,6 +7,7 @@
 //
 
 #import "TWMAppDelegate.h"
+#import "TWMHomeViewController.h"
 
 @implementation TWMAppDelegate
 
@@ -15,6 +16,10 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    TWMHomeViewController *homeViewController = [TWMHomeViewController new];
+    self.window.rootViewController = homeViewController;
+    
     [self.window makeKeyAndVisible];
     return YES;
 }
