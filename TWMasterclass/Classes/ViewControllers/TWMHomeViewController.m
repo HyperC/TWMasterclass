@@ -11,7 +11,7 @@
 
 @interface TWMHomeViewController ()
 
-@property (nonatomic) TWMHomeViewController *view;
+@property (nonatomic) TWMHomeView *view;
 
 @end
 
@@ -29,7 +29,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning
