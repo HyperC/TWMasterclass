@@ -21,7 +21,6 @@
 
 - (void) awakeFromNib
 {
-    
     UIImage* patternImage = [UIImage imageNamed:@"pattern"];
     self.backgroundColor = [UIColor colorWithPatternImage:patternImage];
 }
